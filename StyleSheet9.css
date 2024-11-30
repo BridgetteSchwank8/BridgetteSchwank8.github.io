@@ -1,68 +1,75 @@
-﻿* {
-    marging: 0;
+﻿/*THIS INFO EFFECTS ALL PAGES*/
+* {
+    margin: 0;
     padding: 0;
+}
+body {
+    background-color: antiquewhite;
     
 }
+
+/*THIS INFORMATION EFFECTS THE NAVIGATION BAR*/
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+        .nav-links ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .nav-links ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #ffffff;
+            display: block;
+            margin: auto;
+            transition: 0.5s
+        }
+
+        .nav-links ul li:hover::after {
+            width: 100%;
+        }
+
+/*THIS INFORMATION EFFECTS THE HOME PAGE*/
 .home {
-    min-height: 80vh;
+    min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://media.licdn.com/dms/image/v2/D5616AQEse_CkXdJKkg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677452213123?e=1737590400&v=beta&t=M9n0WkqJC7_QZM51zXgxij1Nh-PtdS5cU71I5mVzkQ0");
     background-position: center;
     background-size: cover;
-    position: relative;
+    text-align: center;
+    color: #fff;
 }
-
-nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content:space-between;
-    align-items:center;
-    color: white;
-}
-.nav-links{
-    flex:1;
-    text-align:center;
-}
-.nav-links ul li{
-    list-style:none;
-    display: inline-block;
-    padding: 8px 12px;
-    position:relative;
+.home h1 {
+    margin-top: 100px;
+    font-size: 64px;
     
 }
-.nav-links ul li a{
-   color:white;
-   text-decoration:none;
-   font-size: 20px;
-}
-.nav-links ul li::after {
-        content: '';
-        width: 0%;
-        height: 2px;
-        
-        background: #ffffff;
-        display: block;
-        margin: auto;
-        transition: 0.5s
-}
-.nav-links ul li:hover::after{
-    width: 100%;
-}
-.textbox{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-.textbox h1{
-    font-size:64px;
-}
-nav .fa{
-    display:none;
-}
+
+
+
+
+/*This is the second page coding: ABOUT ME*/
 .about {
     height: 50vh;
     width: 100%;
@@ -74,62 +81,197 @@ nav .fa{
 }
 .about h1{
     margin-top:100px;
-    font-size: 80px;
+    font-size: 64px;
 }
-.about-us{
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
 
+/*This is the third page coding: PROJECTS*/
+.projects {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://media.licdn.com/dms/image/v2/D5616AQEse_CkXdJKkg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677452213123?e=1737590400&v=beta&t=M9n0WkqJC7_QZM51zXgxij1Nh-PtdS5cU71I5mVzkQ0");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
 }
-.about-col{
-    flex-basis: 20%;
-    
-    padding: 20px 2px;
+
+.projects h1 {
+        margin-top: 100px;
+        font-size: 64px;
 }
-.about-col img {
-   width: 50%;
+
+/*This is the fourth page coding: SKILLS*/
+.skills {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://media.licdn.com/dms/image/v2/D5616AQEse_CkXdJKkg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677452213123?e=1737590400&v=beta&t=M9n0WkqJC7_QZM51zXgxij1Nh-PtdS5cU71I5mVzkQ0");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.skills h1 {
+        margin-top: 100px;
+        font-size: 64px;
+}
+
+
+.c img{
+    height: 200px;
+    width: 200px;
+    padding 10px;
+    display: flex;
+}
+
+
+/* Style for the accordion container */
+.accordion {
+    background-color: antiquewhite; /* Light background */
+    border: 1px solid #dee2e6; /* Subtle border */
+    border-radius: 0.25rem;
+    padding: 10px;
+}
+
+/* Style for accordion items */
+.accordion-item {
+    border: none; /* Remove default borders */
+    margin-bottom: 10px; /* Add spacing between items */
+}
+
+/* Style for accordion headers */
+.accordion-header {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.25rem;
+    background-color: tan; /* Header background */
+    padding: 10px 15px;
+    border-radius: 0.25rem;
+}
+
+   
+
+/* Style for accordion body */
+.accordion-body {
+    background-color: antiquewhite; /* White background */
+    border: 1px solid tan;
+    padding: 15px;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+}
+.accordion img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.aaccordian {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px 0px 300px;
+}
+
+.aaccordian .contentBx {
+        position: relative;
+        margin: 10px 0px;
         
 }
-.about-col h1{
-    padding-top:0;
+.aaccordian .contentBx .label{
+    position: relative;
+    padding: 20px;
+    background: tan;
+    color: black;
+    cursor: pointer;
+
 }
-.about-col p{
-    padding: 15px 0 25px;
+.aaccordian .label {
+        font-size: 26px;
+        text-align: center;
+}
+.aaccordian .contentBx .label::before {
+    content:'+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em; 
+}
+.aaccordian .contentBx.active .label::before{
+    content:'-';
+}
+.aaccordian .contentBx .content {
+        position: relative;
+        padding: 0px;
+        background-color: white;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
+        overflow-y: none;
+}
+.aaccordian .contentBx.active .content {
+        height: 200px;
+        padding: 10px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+    border: dotted;
+    border-color: black;
+}
+.info img {
+        height: 400px;
+        width: 400px;
+        margin: 20px;
+        border-radius: 10px;
+        
+        
+}
+.info h1{
+    text-align: center;
+    font-size: 48px;
+}
+.info p {
+        color: black;
+        line-height: 1.5;
+        border-radius: 10px;
+        text-align: justify;
+        font-size: 1.5rem;
+        border-radius: 100px;
+        margin: 30px;
+        padding: 0px 400px 0px 400px;
+}
+
+
+.footer{
+    width:100%;
+    text-align: center;
+    padding: 30px 0;
+
+
+}
+.icon{
+    color:deepskyblue;
+}
+.accordion2 img {
+    height: 500px;
+    width: 500px;
 }
 
 
 
-@media(max-width: 70px){
-    .textbox h1{
-        font-size:20px;
-    }.nav link ul li{
-         display:block;
-     }
-     .nav-links{
-         position: absolute;
-         background: #fff;
-         height: 100vh;
-         width: 200px;
-         top:0;
-         right:-200px;
-         text-align:left;
-         z-index:2;
-         transition: 1s;
 
-     }
-     nav. fa{
-         display:block;
-         color: #fff;
-         margin: 10px;
-         font-size: 22px;
-         cursor: pointer;
 
-     }
-     .nav-links ul{
-         padding: 30px;
-     }
+
+
+
+
+
+
     
 
-}
+
