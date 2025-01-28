@@ -54,7 +54,7 @@ nav {
 .home {
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://media.licdn.com/dms/image/v2/D5616AQEse_CkXdJKkg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677452213123?e=1737590400&v=beta&t=M9n0WkqJC7_QZM51zXgxij1Nh-PtdS5cU71I5mVzkQ0");
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://miro.medium.com/v2/resize:fit:640/1*RCiBDKXhTM06twbL5PiPkQ.png");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -73,8 +73,7 @@ nav {
 .about {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://media.licdn.com/dms/image/v2/D5616AQEse_CkXdJKkg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677452213123?e=1737590400&v=beta&t=M9n0WkqJC7_QZM51zXgxij1Nh-PtdS5cU71I5mVzkQ0");
-    background-position: center;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://miro.medium.com/v2/resize:fit:640/1*RCiBDKXhTM06twbL5PiPkQ.png"); background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -88,7 +87,7 @@ nav {
 .projects {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://media.licdn.com/dms/image/v2/D5616AQEse_CkXdJKkg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677452213123?e=1737590400&v=beta&t=M9n0WkqJC7_QZM51zXgxij1Nh-PtdS5cU71I5mVzkQ0");
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://miro.medium.com/v2/resize:fit:640/1*RCiBDKXhTM06twbL5PiPkQ.png");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -104,7 +103,7 @@ nav {
 .skills {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://media.licdn.com/dms/image/v2/D5616AQEse_CkXdJKkg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1677452213123?e=1737590400&v=beta&t=M9n0WkqJC7_QZM51zXgxij1Nh-PtdS5cU71I5mVzkQ0");
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url("https://miro.medium.com/v2/resize:fit:640/1*RCiBDKXhTM06twbL5PiPkQ.png");
     background-position: center;
     background-size: cover;
     text-align: center;
